@@ -1,97 +1,87 @@
 export const info = {
   baseUrl: "https://astro-portfolio-uzair.vercel.app",
-  name: "Uzair Ahmed",
-  jobDescription: "Web Developer",
-  about: `I'm a software engineer based in Karachi, Pakistan.
-   I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.
-   I have been working for 3 year, with a demonstrated history of working in the Computer Software industry. Skilled in Front-end Development.
-   I have 3 years of experience in HTML, CSS, SCSS, JavaScript, Bootstrap, tailwind CSS, StyledComponent, React JS and Next JS. Hence,
-   I have successfully completed several web projects from scratch. 
-   Yet, I learn continuously and never stop exploring new technologies.
-   So, I have also gained knowledge of Node JS, Express JS, Mongo DB, Python,
-   firebase and React Native with time.
+  name: "Phuoc Nguyen",
+  jobDescription: "Software Engineer",
+  about: `I'm currently pursuing a master's degree of Computer Science at University of Wollongong. Back to my country of origin, I used to be a software engineer for 3 years. My primary skill is Javascript, I used to work with all kinds of frontend frameworks React, Angular, Vue. Also I have expertise in backend development with Nodejs, Ruby, Java AWS, PostgresDB, server configuration and microservices.
   `,
 
   experience: [
     {
-      name: "InterNative Labs, LLC",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "Apr 2022",
-      endDate: "Present",
+      name: "Employment Hero",
+      location: "Remote",
+      startDate: "Feb 2023",
+      endDate: "Nov 2023",
       description: [
-        "- Developing screens and UI components for the web application using React and Tailwind.",
-        "- Fixing UI issues and integrating backend APIs with Redux Saga.",
+        "✓ React, React Native, Node, Ruby, Graphql, Go, Postgres, AWS.",
       ],
     },
 
     {
-      name: "Coupon Approve (Remote)",
-      location: "Amsterdam, North Holland, Netherlands",
-      startDate: "Nov 2020",
-      endDate: "Apr 2022",
+      name: "National Australia Bank",
+      location: "Ho Chi Minh city, Vietnam",
+      startDate: "Mar 2022",
+      endDate: "May 2023",
       description: [
-        "✓ Developing code in accordance with appropriate design and architectural rules",
-        "✓ Documenting, testing, deployment, maintenance, support of platforms, applications, databases and solutions",
-        "✓ Help and training of other colleagues",
-        "✓ Others tasks connected to the nature of the job",
-        "✓ Code Improvements and Refactoring ",
-        "✓ Best Practices and Rules Maintainer",
+        "✓ React, Micro frontend, Node, Java, Jest",
       ],
     },
-
     {
-      name: "Interns Pakistan",
-      location: "Pakistan",
+      name: "Robert Bosch",
+      location: "Ho Chi Minh city, Vietnam",
       startDate: "Oct 2020",
-      endDate: "Nov 2020",
+      endDate: "Mar 2022",
       description: [
-        "An Immersive Internship Program that prepares me for the world's most in-demand career. A six weeks program completely based on learning and challenges.",
-        "The internship track is built by an industry expert that let develop the skills in the areas most important ",
+        "✓ Vue, Quasar, NGINX, Azure, Node, MySQL",
+      ],
+    },
+    {
+      name: "NUS technology",
+      location: "Ho Chi Minh city, Vietnam",
+      startDate: "May 2020",
+      endDate: "Otc 2020",
+      description: [
+        "✓ Angular, Node, Angolia, Firebase",
       ],
     },
   ],
 
   education: [
     {
-      name: "Pakistan Institute of Professional Science & Technology (PIPS-TECH)",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2019",
-      endDate: "2022",
+      name: "University of Wollongong",
+      location: "Wollongong, Australia",
+      startDate: "2023",
+      endDate: "2025",
       description: [
-        "Diploma of Associate Engineering,  Computer Information Technology (CIT)",
+        "✓ Software engineering, Distributed systems, Data science",
       ],
     },
     {
-      name: "Govt. Degree Boys College Buffer Zone",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2018",
-      endDate: "2020",
-      description: ["Intermediate, Pre-Engineering"],
-    },
-    {
-      name: "Ghazi Foundation Schools & Colleges",
-      location: "Karāchi, Sindh, Pakistan",
+      name: "Ho Chi Minh City University of technology",
+      location: "Ho Chi Minh City, Vietnam",
       startDate: "2016",
-      endDate: "2018",
-      description: ["Matriculation,  Computer Science"],
+      endDate: "2020",
+      description: ["✓ Electronics, Hardware design, Embbed engineering"],
     },
   ],
 
   socialMedia: {
-    facebook: "https://www.facebook.com/profile.php?id=100022899849583",
-    twitter: "https://twitter.com/Uzzii_21",
-    github: "https://github.com/uzzii-21",
-    email: "mailto:uzairahmed@74372gmail.com",
-    linkedin: "https://www.linkedin.com/in/uzzii21/",
+    github: "https://github.com/phuoc-nh",
+    email: "mailto:huuphuoc252513gmail.com",
+    linkedin: "https://www.linkedin.com/in/phuoc-paul-nh/",
   },
 
   projects: [
     {
-      title: "Astro Portfolio",
+      title: "Ravi's study program",
       isFeatured: true,
-      thumbnail: "/assets/images/astro-portfolio.png",
-      githubUrl: "https://github.com/uzzii-21/astro-portfolio",
-      liveUrl: "https://astro-portfolio-uzair.vercel.app/",
+      thumbnail: "/assets/images/ravi.png",
+      githubUrl: "https://github.com/phuoc-nh/RSP-training",
+    },
+    {
+      title: "Ravi's study program",
+      isFeatured: true,
+      thumbnail: "/assets/images/movies.png",
+      githubUrl: "https://github.com/phuoc-nh/angular-movies",
     },
   ],
 };

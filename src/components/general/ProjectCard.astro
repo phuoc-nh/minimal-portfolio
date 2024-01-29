@@ -1,10 +1,11 @@
 ---
 import { IProjectDetails } from "@types";
 const { projectDetail } = Astro.props as IProjectDetails;
-const { title, thumbnail, liveUrl, githubUrl } = projectDetail;
+const { title, thumbnail, liveUrl, githubUrl, description } = projectDetail;
 ---
 
 <article class="w-full max-h-[25rem] overflow-hidden relative group">
+  <!-- <div class="dark:text-light mb-3">{description}</div> -->
   <div class="flex items-center absolute right-4 top-4 z-10">
     {
       githubUrl && (
