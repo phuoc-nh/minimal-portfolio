@@ -78,7 +78,7 @@ export const info = {
       githubUrl: "https://github.com/phuoc-nh/RSP-training",
     },
     {
-      title: "Ravi's study program",
+      title: "Dive into open source project",
       isFeatured: true,
       thumbnail: "/assets/images/movies.png",
       githubUrl: "https://github.com/phuoc-nh/angular-movies",
