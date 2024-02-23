@@ -78,10 +78,10 @@ export const info = {
       githubUrl: "https://github.com/phuoc-nh/RSP-training",
     },
     {
-      title: "Dive into open source project",
+      title: "Miro like app",
       isFeatured: true,
-      thumbnail: "/assets/images/movies.png",
-      githubUrl: "https://github.com/phuoc-nh/angular-movies",
+      thumbnail: "/assets/images/miro.png",
+      githubUrl: "https://github.com/phuoc-nh/miro-app",
     },
   ],
 };
