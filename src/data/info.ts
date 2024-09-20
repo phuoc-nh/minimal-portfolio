@@ -7,6 +7,24 @@ export const info = {
 
   experience: [
     {
+      name: "University of Wollongong",
+      location: "Wollongong, Australia",
+      startDate: "August 2024",
+      endDate: "Now",
+      description: [
+        "✓ Teaching, communicating, problem solving.",
+      ],
+    },
+    {
+      name: "Entropy technologies",
+      location: "Sydney, Australia",
+      startDate: "April 2024",
+      endDate: "Now",
+      description: [
+        "✓ React, Nextjs, Shadcn, Supabase, Postgres, API integration.",
+      ],
+    },
+    {
       name: "Employment Hero",
       location: "Remote",
       startDate: "Feb 2023",
@@ -32,15 +50,6 @@ export const info = {
       endDate: "Mar 2022",
       description: [
         "✓ Vue, Quasar, NGINX, Azure, Node, MySQL",
-      ],
-    },
-    {
-      name: "NUS technology",
-      location: "Ho Chi Minh city, Vietnam",
-      startDate: "May 2020",
-      endDate: "Otc 2020",
-      description: [
-        "✓ Angular, Node, Angolia, Firebase",
       ],
     },
   ],
@@ -83,5 +92,17 @@ export const info = {
       thumbnail: "/assets/images/miro.png",
       githubUrl: "https://github.com/phuoc-nh/miro-app",
     },
+    {
+      title: "Building Gym App @ Entropy technologies (private)",
+      isFeatured: true,
+      thumbnail: "/assets/images/gym-app.png",
+      // githubUrl: "https://github.com/phuoc-nh/miro-app",
+    },
+    {
+      title: "Spring boot microservices",
+      isFeatured: true,
+      thumbnail: "/assets/images/microservices.png",
+      githubUrl: "https://github.com/phuoc-nh/microservices-spring",
+    }
   ],
 };
